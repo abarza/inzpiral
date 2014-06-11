@@ -1,0 +1,772 @@
+body {
+  background-color: #f1f1f1;
+  color: #333;
+  font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  webkit-tap-highlight-color: rgba(255,255,255,0.2);
+  width: 100%;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+img::selection {
+  background: 0 0;
+}
+img::-moz-selection {
+  background: 0 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+h1,
+h2 {
+  font-size: 17px;
+  padding-top: 10px;
+}
+h3 {
+  font-size: 15px;
+}
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 25px;
+}
+a {
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  color: #91ca66;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  color: #6aa53d;
+  text-decoration: none;
+}
+::selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255,255,255,0.2);
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255,255,255,0.2);
+}
+#about {
+  background: #f1f1f1;
+  padding-top: 30px;
+  color: #333;
+  box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 5px rgba(0,0,0,0.1);
+}
+#about a {
+  color: #f16521;
+}
+#about img {
+  margin: 10px auto;
+}
+.about-text {
+  font-size: 14px;
+  margin-bottom: 25px !important;
+}
+#benefits {
+  padding-bottom: 20px;
+}
+#benefits p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+#benefits h3 {
+  font-size: 18px;
+}
+#benefits ul {
+  margin-bottom: 15px;
+  padding: 0;
+  padding-left: 30px;
+}
+#benefits ul li {
+  font-size: 14px;
+  list-style: none;
+  padding: 5px 20px 5px 15px;
+  text-align: left;
+}
+#benefits ul li:before {
+  color: #7ec456;
+  content: "\f14a";
+  float: left;
+  font-family: 'FontAwesome';
+  margin-left: -1.5em;
+}
+.benefitsimg-small {
+  margin-bottom: 20px;
+}
+.appstore {
+  width: 85px;
+}
+.benefits {
+  background: #f1f1f1;
+}
+.btn-circle {
+  -moz-transition: background 0.3s ease-in-out;
+  -webkit-transition: background 0.3s ease-in-out;
+  background: 0 0;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 40px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  transition: background 0.3s ease-in-out;
+  width: 70px;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  outline: 0;
+}
+.btn {
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.btn-default {
+  background-color: transparent;
+  border: 1px solid #5aad1a;
+  color: #5aad1a;
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #6aa53d;
+  border: 1px solid #5aad1a;
+  color: #000;
+  outline: 0;
+}
+.btn-huge {
+  font-size: 26px;
+  padding: 25px;
+}
+.btn-lg {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.btn-link:hover,
+.btn-active:hover {
+  color: #333 !important;
+}
+.brand-heading {
+  font-size: 40px;
+}
+.brands ul {
+  padding-left: 0;
+}
+.brands ul li {
+  display: inline;
+  margin: 0 auto;
+  padding: 0 5px 0 20px;
+}
+.brands ul li img {
+  width: 100px;
+}
+.clientes {
+  padding-top: 5px;
+  background: #fff;
+}
+.close {
+  font-size: 50px;
+  color: #7ec456;
+  opacity: 0.9;
+}
+.content-section {
+  padding-top: 100px;
+}
+#concept {
+  background: #7ec456;
+  color: #f1f1f1;
+  padding-bottom: 100px;
+}
+#concept a {
+  color: #000;
+}
+#concept h3 {
+  color: #000;
+  font-size: 18px;
+}
+#concept img {
+  margin-bottom: 25px;
+}
+#concept span {
+  color: #fff;
+  font-size: 14px;
+}
+#concept ul,
+#features ul {
+  margin-bottom: 0px;
+  padding: 0;
+  padding-left: 30px;
+}
+#concept ul li,
+#features ul li {
+  font-size: 14px;
+  list-style: none;
+  padding: 5px 20px 5px 15px;
+  text-align: left;
+}
+#concept ul li:before,
+#features ul li:before {
+  content: "\f14a";
+  float: left;
+  font-family: 'FontAwesome';
+  margin-left: -1.5em;
+  padding-right: 10px;
+}
+.copy a {
+  color: #f16521;
+  font-weight: bold;
+}
+.copy a:hover {
+  color: #fff;
+}
+.demo {
+  margin-top: 60px;
+}
+#features h3 {
+  font-size: 18px;
+}
+#features img {
+  margin-bottom: 10px;
+}
+#features p {
+  font-size: 13px;
+  margin: 0 20px 15px 20px;
+  text-align: justify;
+}
+#features ul li {
+  padding: 5px 10px 5px 10px;
+}
+footer {
+  background: #333;
+  bottom: 0;
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+}
+footer .col-md-3 {
+  margin-bottom: 20px;
+}
+footer h5 {
+  margin-bottom: 5px;
+}
+footer p {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.concept-section {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url("") no-repeat center center scroll;
+  background-color: #7ec456;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 0;
+  width: 100%;
+}
+.download {
+  padding-bottom: 25px;
+  padding-top: 0px;
+}
+.dropdown-menu {
+  background: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  min-width: 120px;
+  padding: 0;
+}
+.dropdown-menu li a {
+  border-radius: 0px;
+  display: block;
+  font-size: 12px;
+  margin: 0 !important;
+  text-align: right;
+}
+.dropdown-menu li a:hover {
+  border-radius: 0px !important;
+}
+.form-group label {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.form-group .help-block {
+  margin-top: 0px;
+}
+.form-control:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233,0.6);
+  border-color: #7ec456;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233,0.6);
+  outline: 0;
+}
+.intro {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url("../img/supermarket3_small.jpg") no-repeat bottom center scroll;
+  background-color: #f1f1f1;
+  background-size: cover;
+  color: #fff;
+  display: table;
+  height: 176px;
+  margin-top: 75px;
+  padding: 85px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+.brasil {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url("../img/supermarket3_small_br.jpg") no-repeat bottom center scroll;
+  background-color: #f1f1f1;
+  background-size: cover;
+  color: #fff;
+  display: table;
+  height: 176px;
+  margin-top: 75px;
+  padding: 85px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+.intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro-text {
+  font-size: 18px;
+}
+.light {
+  font-weight: 400;
+}
+.location {
+  padding: 30px 0;
+}
+.location h5 {
+  margin-bottom: 5px;
+}
+.location p {
+  margin-bottom: 10px;
+}
+.logbutton {
+  background: #323031;
+}
+.logmi {
+  background: #000;
+  display: relative !important;
+  float: right;
+  font-size: 13px !important;
+  margin-top: 26px;
+  padding: 5px !important;
+  text-align: right;
+  width: 77px;
+}
+.logmi:hover {
+  background: #7ec456;
+  color: #333;
+}
+.logmi:hover span {
+  color: #fff;
+}
+.logmi span {
+  color: #5aad1a;
+}
+.logo-normal {
+  padding-top: 5px;
+  transition: 0.5s;
+  width: 120px;
+}
+.logo-small {
+  padding-top: 5px;
+  transition: 0.5s;
+  width: 120px;
+}
+.main-desc {
+  padding-top: 120px;
+}
+.main-desc h3 {
+  color: rgba(255,255,255,0);
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+.modal-body h5 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.modal-body img {
+  margin-bottom: 10px;
+}
+.modal-body ul {
+  margin-bottom: 15px;
+  padding: 0;
+  padding-left: 0px;
+}
+.modal-body ul li {
+  font-size: 14px;
+  list-style: none;
+  padding: 5px 10px 5px 20px;
+  text-align: left;
+}
+.modal-body ul li:before {
+  color: #7ec456;
+  content: "\f14a";
+  float: left;
+  font-family: 'FontAwesome';
+  margin-left: -1.5em;
+}
+.modal-body p {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 0px;
+}
+.modal-footer {
+  margin: 0;
+  padding: 0;
+}
+.modal {
+  overflow-y: auto;
+}
+.modal-open {
+  overflow: auto;
+  overflow-x: hidden;
+}
+.imgmodal {
+  width: 70px;
+}
+.modal-content {
+  background: rgba(255,255,255,0.8);
+  border-radius: 0;
+  color: #000;
+  height: 100%;
+}
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.navbar-brand:focus {
+  outline: 0;
+}
+.navbar-custom a {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #999;
+  margin-left: 5px;
+}
+.navbar-custom .nav li a {
+  -moz-transition: background 0.3s ease-in-out;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+  background-color: rgba(127,196,86,0.5);
+  border-radius: 5px;
+  outline: 0;
+}
+.navbar-toggle {
+  color: #6aa53d;
+  font-size: 25px;
+  padding: 15px 6px;
+}
+.navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: 0;
+}
+.nopaddinglados {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.othersolutions {
+  background: #f1f1f1;
+  padding-top: 20px;
+}
+.othersolutions p {
+  color: #000;
+  margin-bottom: 0px;
+}
+.otherproducts {
+  padding: 0;
+}
+.otherproducts li {
+  display: inline;
+  list-style: none;
+  padding: 10px 5px 10px 10px;
+}
+.otherproducts li img {
+  width: 100px;
+}
+.pains {
+  background: #f1f1f1;
+}
+.page-scroll .btn-circle i.animated {
+  -moz-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-property: -webkit-transform;
+}
+.page-scroll .btn-circle:hover i.animated {
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-name: pulse;
+  -moz-animation-timing-function: linear;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: pulse;
+  -webkit-animation-timing-function: linear;
+}
+#partners a {
+  color: #000;
+}
+#partners .concept-section {
+  background: #fff;
+  color: #000;
+}
+#partners img {
+  margin-bottom: 25px;
+}
+.social-icons {
+  float: center;
+  padding: 0;
+}
+.social-icons a {
+  color: #f16521;
+  padding: 5px 10px;
+}
+.social-icons a:hover {
+  color: #fff;
+}
+.social-icons li {
+  display: inline;
+  list-style: none;
+}
+.topbar {
+  float: right;
+  font-size: 12px;
+  margin-right: 15px;
+}
+.topbar li > a {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.topbar li > a span {
+  color: #5aad1a !important;
+  font-weight: bold;
+}
+.topcollapse {
+  background: #7ec456;
+  margin: 0 auto;
+}
+.topcollapse ul {
+  margin: 0px auto;
+  padding: 0px;
+}
+.topcollapse ul li {
+  display: inline !important;
+}
+.topcollapse ul li a {
+  color: #f1f1f1;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+.topcollapse ul li span {
+  color: #333 !important;
+  font-weight: bold;
+}
+.topcollapse ul li .dropdown-menu a {
+  color: #333;
+}
+@media (min-width: 767px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 30px;
+  }
+  p {
+    margin: 0 0 35px;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  #benefits {
+    margin-bottom: 55px;
+    padding-top: 100px;
+  }
+  #benefits img {
+    margin-bottom: 20px;
+  }
+  .benefitsimg {
+    margin: 0 auto 30px auto;
+    width: 700px;
+  }
+  .brand-heading {
+    font-size: 100px;
+  }
+  .brands ul li {
+    display: inline;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+  }
+  .brands ul li img {
+    width: 100px;
+  }
+  .centro-centro {
+    float: none;
+    float: none;
+    margin: 0 auto;
+    margin: 0 auto;
+  }
+  #concept h2,
+  #features h2 {
+    margin-top: 20px;
+  }
+  #conceptinfo img {
+    margin: 0 auto;
+  }
+  .content-section {
+    padding: 90px 0;
+  }
+  .download {
+    padding: 190px 0 0 100px;
+    position: absolute;
+  }
+  #features p {
+    font-size: 13px;
+    margin: 0 10px 15px 10px;
+    text-align: justify;
+  }
+  footer {
+    padding: 20px 0 0px 0;
+  }
+  footer .col-md-3 {
+    margin-bottom: 20px;
+  }
+  footer h5 {
+    margin-bottom: 10px;
+  }
+  footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .intro {
+    background: url("../img/supermarket3.jpg") no-repeat bottom center scroll;
+    height: 588px;
+    margin-top: 0px;
+    padding: 10px 0;
+  }
+  .brasil {
+    background: url("../img/supermarket3_br.jpg") no-repeat bottom center scroll;
+    height: 588px;
+    margin-top: 0px;
+    padding: 10px 0;
+  }
+  #allthebenefits .modaltext {
+    margin-top: 5px;
+  }
+  .appstore {
+    width: 130px;
+  }
+  .intro-text {
+    font-size: 25px;
+  }
+  .logo-normal {
+    padding-top: 0px;
+    transition: 0.5s;
+    width: 200px;
+  }
+  .logo-small {
+    padding-top: 15px;
+    transition: 0.5s;
+    width: 150px;
+  }
+  .main-desc {
+    padding-top: 50px;
+  }
+  .main-desc h3 {
+    color: #fff;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+  }
+  .navbar {
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    background: 0 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-brand {
+    padding: 0 15px;
+  }
+  .navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+  }
+  .modal-body p {
+    margin-top: 25px;
+  }
+  .modaltext {
+    margin-top: 15px;
+  }
+  .other {
+    box-shadow: inset 1px 0 rgba(0,0,0,0.1);
+  }
+  .otherproducts {
+    padding: 0;
+  }
+  .otherproducts li {
+    padding: 10px 10px 10px 10px;
+  }
+  .otherproducts li img {
+    width: 80px;
+  }
+  .social-icons {
+    float: right;
+  }
+  .top-nav-collapse {
+    background-color: #f1f1f1;
+    padding: 0;
+  }
+}

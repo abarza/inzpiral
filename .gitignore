@@ -1,0 +1,18 @@
+*.sublime-workspace
+*.sublime-project
+*.no
+*.styl
+*.txt
+
+no/
+fonts/
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
