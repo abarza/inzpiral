@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui"> <!-- "minimal-ui" iOS7-->
+    <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- Minimal UI iOS6-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"> <!-- color statusbar -->
+    <meta name="description" content="Implementamos soluciones de gestión con una visión del negocio generada a partir de nuestra extensa experiencia comercial y operacional en múltiples industrias. Contamos con tecnología propietaria para apoyar los procesos de gestión de manera innovadora, con foco en la mejora de los resultados de manera sustentable generando una ventaja competitiva a nuestros clientes.">
+    <meta name="keywords" content="control de gestión, información en tiempo real, reportería en internet,  gestión de supervisores en terreno, aplicación móvil, app. móvil, control de gestión para toma de decisiones, visibilidad en la gestión, definición de rutas,Prevención de riesgo, Ejecución operacional, Estándares, Normas, Estándares operacionales, Normas de higiene y seguridad, Surtido, Planes comerciales, KPI, Indicadores clave de gestión, Fichas de inspección, Control de calidad, Cumplimiento, Levantamiento de datos, evolución">
+    <meta name="author" content="Inzpiral">
+    <meta name="robots" content="follow, index">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#da532c">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Inzpiral">
+    <meta itemprop="description" content="Implementamos soluciones de gestión con una visión del negocio generada a partir de nuestra extensa experiencia comercial y operacional en múltiples industrias. Contamos con tecnología propietaria para apoyar los procesos de gestión de manera innovadora, con foco en la mejora de los resultados de manera sustentable generando una ventaja competitiva a nuestros clientes.">
+    <meta itemprop="image" content="http://www.inzpiral.com/img/gimage.png">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@author"><!-- TODO completar autor twitter -->
+    <meta name="twitter:title" content="Inzpiral">
+    <meta name="twitter:description" content="Soluciones de gestión con visión del negocio. Contamos con tecnología propietaria innovadora para apoyar los procesos de gestión, con foco en la mejora de resultados, generando ventajas competitivas.">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="http://www.inzpiral.com/img/inzpiral_tw_img.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Inzpiral" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.inzpiral.com/" />
+    <meta property="og:image" content="http://www.inzpiral.com/img/inzpiral_ogfacebook_image.png" /> <!-- TODO mejorar imagen para share facebook -->
+    <meta property="og:description" content="Implementamos soluciones de gestión con una visión del negocio generada a partir de nuestra extensa experiencia comercial y operacional en múltiples industrias. Contamos con tecnología propietaria para apoyar los procesos de gestión de manera innovadora, con foco en la mejora de los resultados de manera sustentable generando una ventaja competitiva a nuestros clientes." />
+    <meta property="og:site_name" content="Inzpiral" />
+    <meta property="fb:admins" content="Facebook numberic ID" /> <!-- TODO completar facebook ID -->
+
+    <title>Inzpiral</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS inzpiral -->
+    <link href="css/inzpiral.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+    <header id="header">
+
+        <!-- top navbar -->
+        <nav id="topbarnav" class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header hidden-xs">
+                    <a class="navbar-brand" href="#"><img src="img/logo_inzpiral.png" alt=""></a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right topbar-menu">
+                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope fa-lg"></i></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">English <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Español</a></li>
+                            <li><a href="#">Portugués</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- Carrusel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                <img src="http://dummyimage.com/980x400/000/fff" alt="Slide2">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://dummyimage.com/980x400/000/fff" alt="Slide2">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://dummyimage.com/980x400/000/fff" alt="Slide2">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+
+    </header>
+    <!-- /HEADER -->
+
+    <!-- Main Navbar -->
+        <nav id="nav" class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li class="page-scroll active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li class="page-scroll"><a href="#tech">Our Technology</a></li>
+                        <li class="page-scroll"><a href="#">Solutions</a></li>
+                        <li class="page-scroll"><a href="#">Inzpiral Labs</a></li>
+                        <li class="page-scroll"><a href="#">Out Partners</a></li>
+                        <li class="page-scroll"><a href="#">About us</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Take an Assesment</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+    <!-- OUR TECHNOLOGY -->
+    <section id="tech" class="content-section text-center">
+        <div class="container">
+            <h1>Our Technology</h1>
+            <div class="col-sm-6">
+                <div class="centro-centro">
+                    <img class="img-circle" src="http://dummyimage.com/200x200/000/fff" width="200" alt="Problemas de la industria">
+                    <h1>Problem</h1>
+
+                     <ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, earum, dolorem, ratione dolorum eligendi modi praesentium quas harum facilis nisi incidunt fuga placeat delectus illo numquam officia aut explicabo eveniet.</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="centro-centro">
+                    <img class="img-circle" src="http://dummyimage.com/200x200/000/fff" width="200" alt="Beneficios">
+                    <h1>Solution</h1>
+                     <ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, alias, ab, est, sint possimus nostrum nesciunt sequi dolorum quas in officia perferendis sit ad vel ipsum eum laudantium debitis iste.</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <a href="#" data-toggle="modal" data-target="#allthebenefits" class="btn btn-default btn-lg">Ver más</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- /OUR TECHNOLOGY -->
+
+
+    <!-- Seccion About Us -->
+    <section id="about" class="">
+        <div class="container">
+            <div class="col-xs-4 col-md-2">
+                <img src="img/inzpirallogo.png" alt="Inzpiral">
+            </div>
+            <div class="col-xs-10 col-md-5">
+                <p style="margin-bottom: 5px"><b>Frogmi</b> es una empresa del grupo<a href="http://www.inzpiral.com">Inzpiral</a>.</p>
+                <p class="about-text">Inzpiral proporciona a sus clientes respuestas oportunas, continuas e inmediatamente accionables a preguntas claves del negocio, con alto impacto en las utilidades, en la preferencia de sus clientes, el time to market y la eficiencia operacional. Ofrecemos un conjunto de soluciones de Business Intelligence de fácil uso y de ágil implementación: no requieren inversiones, no distraen recursos de TI, son altamente escalables y tolerantes a fallas.</p>
+            </div>
+            <div class="col-xs-12 col-md-5 other">
+                <p style="margin-bottom: 5px"><b>Consulte nuestras soluciones de negocio.</b></p>
+                <ul class="otherproducts">
+                    <li><a href="http://www.inzpiral.com"><img src="img/frogmi.png" alt="Frogmi"></a></li>
+                    <li><a href="http://www.qobbit.com"><img src="img/qobbit.png" alt="Qobbit"></a></li>
+                    <li><a href="http://www.beetrack.cl"><img src="img/beetrack.png" alt="Beetrack"></a></li>
+                    <li><a href="#"><img src="img/karguroo.png" alt="Kanguroo"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="location">
+         <div class="container">
+            <div class="col-md-12 centro-centro">
+                <div class="col-md-3">
+                    <h5><img src="img/chile.png" alt="Chile"> Chile</h5>
+                    <p>Av. Presidente Errázuriz 4125, Las Condes, Santiago</p>
+                </div>
+                <div class="col-md-3">
+                    <h5><img src="img/usa.png" alt="USA"> USA</h5>
+                    <p>81 Winslow Av. Unit 1, Somerville, MA 02144</p>
+                </div>
+                <div class="col-md-3">
+                    <h5><img src="img/brasil.png" alt="Brasil"> Brasil</h5>
+                    <p>Av. Paulista 807, 23°, São Paulo</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/endeavor_logo.gif" alt="Endeavor" width="150">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="col-md-6">
+                <p class="copy">© Copyright 2014 - Todos los derechos reservados <span>|</span> <a href="http://www.inzpiral.com">Inzpiral.com</a></p>
+            </div>
+            <div class="col-md-6">
+                <ul class="social-icons">
+                    <li><a href="#" class="foot">Síguenos <i class="fa fa-linkedin fa-lg"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!-- Custom Inzpiral JavaScript -->
+    <script src="js/inzpiral.js"></script>
+
+</body>
+
+</html>
