@@ -63,9 +63,6 @@ a:focus {
   background: #fcfcfc;
   background: rgba(255,255,255,0.2);
 }
-header {
-  background: #f1f1f1;
-}
 #topbarnav {
   height: 115px;
   margin-bottom: 0px;
@@ -114,6 +111,7 @@ body {
 }
 /* Wrapper for page content to push down footer */
 #wrap {
+  background: #f1f1f1 url("../img/fondoheader.png") repeat-x;
   min-height: 100%;
   height: auto !important;
   height: 100%;
@@ -130,7 +128,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* Custom page CSS
+/* Custom
 -------------------------------------------------- */
 #wrap > .container {
   padding: 60px 15px 0;
@@ -148,11 +146,11 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Kreon', serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   vertical-align: middle;
 }
 header {
-  background: #f1f1f1;
+  background: none;
   height: 400px;
   color: #000;
 }
@@ -166,7 +164,7 @@ header a:hover {
   text-decoration: none;
 }
 header h3 {
-  font-family: 'Kreon', serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #fc3;
   padding: 10px;
   border-radius: 3px;
@@ -179,7 +177,8 @@ header .dropdown-menu {
   border-width: 0;
 }
 h1 {
-  font-size: 50px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
 }
 #nav {
   width: 100%;
@@ -188,9 +187,18 @@ h1 {
 }
 #nav.affix {
   position: fixed;
-  top: 0;
-  z-index: 10;
-  -webkit-transition: all 0.6s ease-in-out;
+  top: -25px;
+  z-index: 90;
+}
+.logo-normal {
+  padding-top: 5px;
+  transition: 0.5s;
+  width: 115px;
+}
+.logo-small {
+  padding-top: 5px;
+  transition: 0.5s;
+  width: 80px;
 }
 @media (min-width: 767px) {
   .navbar-nav.nav-justified > li {
@@ -201,7 +209,7 @@ h1 {
   margin: 1px 1px;
 }
 /* customize nav style */
-.navbar-custom {
+.navbar-default {
   background-color: #2e2e2e;
   font-weight: 700;
   text-transform: uppercase;
@@ -278,7 +286,7 @@ section {
   background-size: cover;
 }
 .bg-3 {
-  background: url("") no-repeat center center fixed;
+  background: #fff url("") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -295,14 +303,25 @@ section {
   margin: 0 auto;
 }
 #solutions-one {
-  padding-bottom: 85px;
+  padding-bottom: 25px;
   color: #000;
 }
 #solutions-two {
-  color: #808080;
+  padding-bottom: 25px;
+  background: #f16521;
+  color: #fff;
 }
 #solutions-three {
   color: #000;
+}
+#solutions-three h3 {
+  margin-bottom: 0px;
+}
+#solutions-three .label {
+  margin-bottom: 10px;
+}
+#solutions-three p {
+  margin-top: 15px;
 }
 #partners a {
   color: #000;
@@ -313,6 +332,9 @@ section {
 }
 #partners img {
   margin-bottom: 25px;
+}
+.clientes {
+  color: #000;
 }
 .brands ul li {
   display: inline;
@@ -359,6 +381,15 @@ section {
 .location p {
   margin-bottom: 10px;
 }
+.text-muted {
+  margin-bottom: 0px;
+}
+.top-link:hover {
+  color: #f16521 !important;
+}
+.button-home {
+  background: #f16521;
+}
 @media (min-width: 768px) {
   nav#topbarnav {
     height: 115px;
@@ -379,11 +410,30 @@ section {
     margin-right: -15px;
     margin-top: 30px;
   }
+  nav .topbar-menu li a:hover {
+    color: #f16521 !important;
+  }
   .carousel-control.left,
   .carousel-control.right {
     background-image: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%);
   }
   #tech {
     padding: 30px 0;
+  }
+  .top-nav-collapse {
+    background-color: #e8f7fe !important;
+    height: 90px !important;
+    padding: 0;
+  }
+  .left-button {
+    background: #f53f00;
+    border-radius: 5px;
+    padding: 8px !important;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: #fff !important;
+  }
+  .left-button:hover {
+    background: #f16521 !important;
   }
 }

@@ -29,7 +29,7 @@ $('#nav .navbar-nav li>a').click(function(){
 //jQuery to collapse the navbar on scroll
 
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
+    if ($("#topbarnav").offset().top > 150) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $(".logo-normal").addClass("logo-small");
     } else {
