@@ -45,8 +45,8 @@ p {
 a {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
-  color: #f16521;
   transition: all 0.2s ease-in-out;
+  color: #f16521;
 }
 a:hover,
 a:focus {
@@ -111,7 +111,7 @@ body {
 }
 /* Wrapper for page content to push down footer */
 #wrap {
-  background: #f1f1f1 url("../img/fondoheader.png") repeat-x;
+  background: url("") repeat-x;
   min-height: 100%;
   height: auto !important;
   height: 100%;
@@ -187,7 +187,7 @@ h1 {
 }
 #nav.affix {
   position: fixed;
-  top: -25px;
+  top: 90px;
   z-index: 90;
 }
 .logo-normal {
@@ -271,6 +271,34 @@ section {
   height: 100%;
   padding-top: 100px;
 }
+#section2 {
+  color: #fff;
+  min-height: 120px;
+  height: auto !important;
+  height: 100%;
+  padding-top: 30px;
+}
+#section-common {
+  color: #fff;
+  min-height: 100px;
+  height: auto !important;
+  height: 100%;
+  padding-top: 20px;
+}
+.btn-inzpiral {
+  color: #fff;
+  background-color: #ec612e !important;
+  border-color: #f24100 !important;
+}
+.btn-inzpiral:hover {
+  background-color: #f24100 !important;
+  border-color: #f24100 !important;
+}
+.btn-inzpiral:active {
+  color: #fff !important;
+  background-color: #f24100 !important;
+  border-color: #f24100 !important;
+}
 .bg-1 {
   background: #000 url("") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -286,7 +314,7 @@ section {
   background-size: cover;
 }
 .bg-3 {
-  background: #fff url("") no-repeat center center fixed;
+  background: #fff url("../img/fondoban2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -301,6 +329,9 @@ section {
   float: none;
   margin: 0 auto;
   margin: 0 auto;
+}
+.top-section {
+  height: 510px;
 }
 #solutions-one {
   padding-bottom: 25px;
@@ -421,9 +452,13 @@ section {
     padding: 30px 0;
   }
   .top-nav-collapse {
-    background-color: #e8f7fe !important;
+    background-color: #121a1e !important;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     height: 90px !important;
     padding: 0;
+    transition: 0.5s;
   }
   .left-button {
     background: #f53f00;

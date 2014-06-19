@@ -21,7 +21,7 @@ $('.scroll-top').click(function(){
 /* smooth scrolling for nav sections */
 $('#nav .navbar-nav li>a').click(function(){
   var link = $(this).attr('href');
-  var posi = $(link).offset().top+20;
+  var posi = $(link).offset().top-100;
   $('body,html').animate({scrollTop:posi},700);
 });
 
