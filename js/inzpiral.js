@@ -21,7 +21,7 @@ $('.scroll-top').click(function(){
 /* smooth scrolling for nav sections */
 $('#nav .navbar-nav li>a').click(function(){
   var link = $(this).attr('href');
-  var posi = $(link).offset().top-100;
+  var posi = $(link).offset().top-140;
   $('body,html').animate({scrollTop:posi},700);
 });
 
@@ -38,27 +38,27 @@ $(window).scroll(function() {
     }
 });
 
-$(function() {
+// $(function() {
 
-    //jQuery for page scrolling feature - requires jQuery Easing plugin
+//     //jQuery for page scrolling feature - requires jQuery Easing plugin
 
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+//     $('.page-scroll a').bind('click', function(event) {
+//         var $anchor = $(this);
+//         $('html, body').stop().animate({
+//             scrollTop: $($anchor.attr('href')).offset().top
+//         }, 1500, 'easeInOutExpo');
+//         event.preventDefault();
+//     });
 
-    //Toggle menu en mobile
+//     //Toggle menu en mobile
 
-     var navMain = $(".navbar-main-collapse");
-     navMain.on("click", "a", null, function () {
-         navMain.collapse('hide');
-     });
+//      var navMain = $(".navbar-main-collapse");
+//      navMain.on("click", "a", null, function () {
+//          navMain.collapse('hide');
+//      });
 
 
-});
+// });
 
 // Not used today
 function muestramodal() {

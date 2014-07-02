@@ -72,7 +72,6 @@ a:focus {
   margin: auto;
 }
 footer {
-  background: #333;
   bottom: 0;
   padding: 20px 0;
   position: relative;
@@ -123,8 +122,6 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 60px;
-  background-color: #f5f5f5;
-  margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -135,9 +132,6 @@ body {
 }
 .container .credit {
   margin: 20px 0;
-}
-#footer {
-  background-color: #414141;
 }
 #footer a {
   color: #efefef;
@@ -210,10 +204,11 @@ h1 {
 }
 /* customize nav style */
 .navbar-default {
-  background-color: #2e2e2e;
+  background-color: #000;
   font-weight: 700;
   text-transform: uppercase;
   border-width: 0;
+  color: #ddd;
 }
 .navbar-custom .navbar-nav>li>a {
   color: #ddd;
@@ -231,6 +226,11 @@ h1 {
 .navbar-custom .navbar-nav>.dropdown>a .caret {
   border-top-color: #999;
   border-bottom-color: #999;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: #161616;
 }
 .navbar-collapse.in {
 /*3.0.2 bug workaround*/
@@ -269,11 +269,18 @@ section {
   color: #fff;
   height: auto !important;
   height: 100%;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 #section2 {
   color: #fff;
-  min-height: 120px;
+  min-height: 50px;
+  height: auto !important;
+  height: 100%;
+  padding-top: 30px;
+}
+#sectiono {
+  color: #fff;
+  min-height: 50px;
   height: auto !important;
   height: 100%;
   padding-top: 30px;
@@ -287,27 +294,27 @@ section {
 }
 .btn-inzpiral {
   color: #fff;
-  background-color: #ec612e !important;
+  background-color: #f24100 !important;
   border-color: #f24100 !important;
 }
 .btn-inzpiral:hover {
-  background-color: #f24100 !important;
-  border-color: #f24100 !important;
+  background-color: #f56631 !important;
+  border-color: #f56631 !important;
 }
 .btn-inzpiral:active {
   color: #fff !important;
-  background-color: #f24100 !important;
-  border-color: #f24100 !important;
+  background-color: #f56631 !important;
+  border-color: #f56631 !important;
 }
 .bg-1 {
-  background: #000 url("") no-repeat center center fixed;
+  background: #ff670f url("") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-2 {
-  background: url("") no-repeat center center fixed;
+  background: #22313f url("") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -324,6 +331,41 @@ section {
   padding-top: 30px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(20,20,20,0.2)), to(rgba(255,255,255,0)), color-stop(1, #000));
 }
+.bg-5 {
+  padding-top: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.8)), to(rgba(0,0,0,0.7)), color-stop(1, #000));
+}
+.bg-6 {
+  background: #fff url("../img/bg6.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-65 {
+  background: #fff url("../img/bg7.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-7 {
+  background: #e93d07 url("../img/bg5.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-8 {
+  background: #f9690e url("") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-9 {
+  background: #f1f1f1 url("../img/team1.png");
+}
 .centro-centro {
   float: none;
   float: none;
@@ -334,8 +376,9 @@ section {
   height: 510px;
 }
 #solutions-one {
+  box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 5px rgba(0,0,0,0.1);
   padding-bottom: 25px;
-  color: #000;
+  color: #f3550a;
 }
 #solutions-two {
   padding-bottom: 25px;
@@ -343,7 +386,11 @@ section {
   color: #fff;
 }
 #solutions-three {
+  box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 5px rgba(0,0,0,0.1);
   color: #000;
+}
+#solutions-three h1 {
+  color: #fff;
 }
 #solutions-three h3 {
   margin-bottom: 0px;
@@ -353,6 +400,10 @@ section {
 }
 #solutions-three p {
   margin-top: 15px;
+}
+#partners {
+  box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 5px rgba(0,0,0,0.1);
+  color: #f3550a;
 }
 #partners a {
   color: #000;
@@ -376,7 +427,6 @@ section {
   width: 100px;
 }
 #about {
-  background: #f1f1f1;
   padding-top: 30px;
   color: #333;
   box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 5px rgba(0,0,0,0.1);
@@ -390,6 +440,9 @@ section {
 .about-text {
   font-size: 14px;
   margin-bottom: 25px !important;
+}
+#section1 {
+  height: 10px;
 }
 .otherproducts {
   padding: 0;
@@ -420,6 +473,25 @@ section {
 }
 .button-home {
   background: #f16521;
+}
+#workwhitus {
+  box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 5px rgba(0,0,0,0.1);
+  background: url("../img/team1.png") fixed;
+}
+#workwhitus h1,
+#workwhitus h2 {
+  margin: 0px;
+  padding-top: 0px;
+  text-shadow: 0.1em 0.1em #0f1c39;
+}
+.btn-primary {
+  background: #ff3a08;
+  color: #fff;
+  border-color: #f16521;
+}
+.btn-primary:hover {
+  background: #d93309;
+  border-color: #ff3a08;
 }
 @media (min-width: 768px) {
   nav#topbarnav {
@@ -452,7 +524,7 @@ section {
     padding: 30px 0;
   }
   .top-nav-collapse {
-    background-color: #121a1e !important;
+    background-color: #22313f !important;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
