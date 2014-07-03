@@ -375,6 +375,9 @@ section {
 .top-section {
   height: 510px;
 }
+.top-section2 {
+  height: 140px;
+}
 #solutions-one {
   box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 5px rgba(0,0,0,0.1);
   padding-bottom: 25px;
@@ -479,7 +482,9 @@ section {
   background: url("../img/team1.png") fixed;
 }
 #workwhitus h1,
-#workwhitus h2 {
+#workwhitus h2,
+#workwhitus h3,
+#workwhitus h4 {
   margin: 0px;
   padding-top: 0px;
   text-shadow: 0.1em 0.1em #0f1c39;
@@ -492,6 +497,28 @@ section {
 .btn-primary:hover {
   background: #d93309;
   border-color: #ff3a08;
+}
+#wwu {
+  color: #000;
+  margin-bottom: 50px;
+}
+#wwu h1,
+#wwu h2 {
+  color: #000;
+}
+.oferta-destacada {
+  padding: 30px 10px;
+  color: #fff;
+  background-color: #2ecc71;
+}
+.oferta-destacada:nth-child(2n+3) {
+  background-color: #3498db;
+}
+hr {
+  color: #7fa423;
+  background-color: #f1f1f1;
+  height: 2px;
+  margin-top: 0;
 }
 @media (min-width: 768px) {
   nav#topbarnav {
@@ -543,4 +570,8 @@ section {
   .left-button:hover {
     background: #f16521 !important;
   }
+}
+#topbarnav2 {
+  margin-bottom: 0px;
+  height: 90px;
 }
